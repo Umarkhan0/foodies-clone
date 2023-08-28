@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardConatianor1{
+    background: #fafafa;
+    width: 100%;
+    height: 70%;
+}
+.cardConatianor1 h4{
+    color: #dc0000;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cardConatianor1 h2{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.card_sec{
+display: flex;
+justify-content: center;
+text-align: left;
+
+}
+.cards img{
+    width: 100%;
+}
+.cards p{
+    padding: 10px;
+    font-size: 14px;
+opacity: 0.7;
+}
+
+.citiesCantainor{
+    background: #fff;
+    width: 100%;
+    height: 70%;
+}
+
+
+.citiesCantainor  >h3
+{
+    font-weight: 900;
+    color: #8a8a8f;
+    line-height: 1em;
+    opacity: .6;
+    margin: 2rem;
+    position: relative;
+    z-index: 1;
+    font-size: 5rem;
+    text-align: center;
+}
+.card{
+    width: 200px !important;
+    height: 300px !important;
+}
+
+
+.cityCardsContainor{
+
+}
