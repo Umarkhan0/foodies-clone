@@ -111,13 +111,11 @@ padding: 0% !important;
   }
   @media (max-width: 767px) {
     .image-container{
-      height: 90vh;
+      height: 100%;
       width: 105%;
     }
   }
-
-
-  
+ 
  
 
 
