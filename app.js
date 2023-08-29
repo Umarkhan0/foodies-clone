@@ -137,7 +137,7 @@ let cities = [
         city: "Sahiwal"
     },
     {
-        image: "./images/hyderabad.jpeg",
+        image: "./images/hyderabad2.jpg",
         city: "Hyderabad"
     },
     {
