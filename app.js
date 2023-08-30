@@ -199,7 +199,7 @@ let cities = [
 ];
 
 
-let cityCardsContainor =document.getElementById("cityCardsContainor");
+let cityCardsContainor =document.querySelector(".cityCardsContainor");
 
 cities.forEach((data,index)=>{
     cityCardsContainor.innerHTML +=`

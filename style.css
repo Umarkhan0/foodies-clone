@@ -40,10 +40,13 @@ text-align: left;
 opacity: 0.7;
 }
 
+
+
+
 .citiesCantainor{
     background: #fff;
     width: 100%;
-    height: 70%;
+    height: 80%
 }
 
 
@@ -70,6 +73,7 @@ height: 50vh;
 
 padding: 0% !important;
 }
+
 
 
 
@@ -196,7 +200,22 @@ padding: 0% !important;
 
 
 
+  .cuisinesCantainor{
+    background: #fff;
+    width: 100%;
+    height: 70vh;
+  }
 
-
-
+  .cuisinesCantainor >h3
+  {
+      font-weight: 900;
+      color: #8a8a8f;
+      line-height: 1em;
+      opacity: .6;
+      margin: 2rem;
+      position: relative;
+      z-index: 1;
+      font-size: 5rem;
+      text-align: center;
+  }
 
