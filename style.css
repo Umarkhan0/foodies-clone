@@ -1,221 +1,212 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.cardConatianor1{
-    background: #fafafa;
-    width: 100%;
-    height: 70%;
-}
-.cardConatianor1 h4{
-    color: #dc0000;
-    font-weight: 400;
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.cardConatianor1 h2{
-    font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 60px;
+.cardConatianor1 {
+  background: #fafafa;
+  width: 100%;
+  height: 70%;
 }
 
-.card_sec{
-display: flex;
-justify-content: center;
-text-align: left;
-
-}
-.cards img{
-    width: 100%;
-}
-.cards p{
-    padding: 10px;
-    font-size: 14px;
-opacity: 0.7;
+.cardConatianor1 h4 {
+  color: #dc0000;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-
-
-
-.citiesCantainor{
-    background: #fff;
-    width: 100%;
-    height: 80%
+.cardConatianor1 h2 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 60px;
 }
 
+.card_sec {
+  display: flex;
+  justify-content: center;
+  text-align: left;
 
-.citiesCantainor  >h3
-{
-    font-weight: 900;
-    color: #8a8a8f;
-    line-height: 1em;
-    opacity: .6;
-    margin: 2rem;
-    position: relative;
-    z-index: 1;
-    font-size: 5rem;
-    text-align: center;
 }
 
-.cityCardsContainor{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-height: 50vh;
+.cards img {
+  width: 100%;
+}
 
-padding: 0% !important;
+.cards p {
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0.7;
 }
 
 
 
 
+.citiesCantainor {
+  background: #fff;
+  width: 100%;
+  height: 80%
+}
+
+
+.citiesCantainor>h3 {
+  font-weight: 900;
+  color: #8a8a8f;
+  line-height: 1em;
+  opacity: .6;
+  margin: 2rem;
+  position: relative;
+  z-index: 1;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.cityCardsContainor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+
+  padding: 0% !important;
+}
 
 
 
+.card {
+  width: 107%;
+  height: 33vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 
+.image-container {
+  overflow: hidden;
+  transition: transform 0.5s;
+  height: 33vh;
+  width: 100%;
+  opacity: 1.96;
 
- 
+}
 
-
-
-  
-  .card {
-   width: 107%; 
-   height: 33vh;
-    position: relative;
-    overflow: hidden;
-    border-radius: 2px;
-    box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-  
+@media (max-width: 991px) {
   .image-container {
-    overflow: hidden;
-    transition: transform 0.5s;
-    height: 33vh;
+    height: 45vh;
     width: 100%;
-    opacity: 1.96;
-
   }
-  
-  @media (max-width: 991px) {
-    .image-container{
-      height: 45vh;
-      width: 100%;
-    }
-  }
-  @media (max-width: 767px) {
-    .image-container{
-      height: 105%;
-      width: 105%;
-    }
-    .card .btn {
-      bottom: 20px;
-    }
-    .card .content {
-      bottom: 60px;
-      opacity: 0.9;
-    }
-  }
- 
- 
+}
 
-
-
-
-
-  .card:hover .image-container {
-    transform: scale(1.1);
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
-
+@media (max-width: 767px) {
+  .image-container {
+    height: 105%;
+    width: 105%;
   }
 
-
-  .content {
-    padding: 10px;
-    position: absolute;
-    bottom: 2px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    transition: bottom 0.4s , opacity 0.4s
-    
-    
+  .card .btn {
+    bottom: 20px;
   }
-  
-  .card:hover .content {
-    bottom: 70px;
+
+  .card .content {
+    bottom: 60px;
     opacity: 0.9;
   }
-  
-  .content > h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #fff;
-  }
-  
-  
-  .btn {
-    position: absolute;
-    bottom: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: rgba(166,206,57,1) !important;
-    color: white !important;
-    font-weight: 700 !important;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-
-  }
-  
-  .card:hover .btn {
-    bottom: 20px;
-    transition: bottom 0.4s , opacity 0.4s
-
-  }
-  .card:hover .btn :hover{
-    background-color: rgb(251,105,98) ;
-  }
-  
+}
 
 
 
 
 
 
-  .cuisinesCantainor{
-    background: #fff;
-    width: 100%;
-    height: 70vh;
-  }
 
-  .cuisinesCantainor >h3
-  {
-      font-weight: 900;
-      color: #8a8a8f;
-      line-height: 1em;
-      opacity: .6;
-      margin: 2rem;
-      position: relative;
-      z-index: 1;
-      font-size: 5rem;
-      text-align: center;
-  }
+.card:hover .image-container {
+  transform: scale(1.1);
+}
 
+.image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
+
+}
+
+
+.content {
+  padding: 10px;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transition: bottom 0.4s, opacity 0.4s
+}
+
+.card:hover .content {
+  bottom: 70px;
+  opacity: 0.9;
+}
+
+.content>h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.btn {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: rgba(166, 206, 57, 1) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+}
+
+.card:hover .btn {
+  bottom: 20px;
+  transition: bottom 0.4s, opacity 0.4s
+}
+
+.card:hover .btn :hover {
+  background-color: rgb(251, 105, 98);
+}
+
+
+
+
+
+
+
+.cuisinesCantainor {
+  background: #fff;
+  width: 100%;
+  height: 70vh;
+}
+
+.cuisinesCantainor>h3 {
+  font-weight: 900;
+  color: #8a8a8f;
+  line-height: 1em;
+  opacity: .6;
+  margin: 2rem;
+  position: relative;
+  z-index: 1;
+  font-size: 5rem;
+  text-align: center;
+}
